@@ -27,7 +27,7 @@ if (isset($_POST['message'], $_POST['email'], $_POST['firstname'], $_POST['lastn
 
 		$m->Host = 'SSL0.OVH.NET';
 		$m->Username = 'hello@fablart.com';
-		$m->Password = '';
+		$m->Password = 'aa';
 		$m->SMTPSecure = 'ssl';
 		$m->Port = 465;
 
